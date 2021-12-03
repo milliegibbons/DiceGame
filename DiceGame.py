@@ -144,7 +144,7 @@ class MyAgent(DiceGameAgent):
             V=V_copy
             epsilon+=1
 
-                                    
+
     def play(self,state):
         action=self.Q.get((state))
 
